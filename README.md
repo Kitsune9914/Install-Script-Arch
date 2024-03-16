@@ -1,5 +1,5 @@
 # Install-Script-Arch
-Um script de pos instalação do arch linux feito por mim
+Um script de pos instalação do arch linux feito por mim para uso pessoal mas que caso alguém o ache util também sinta-se a vontade para usa-lo
 
 ### Recursos 
 
