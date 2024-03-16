@@ -8,5 +8,5 @@ Um script de pos instalação do arch linux feito por mim
 - Instalação automática do yay
 - Instalação de Lojas de games automaticamente podendo optar pela versão nativa ou flatpak
 
-⚠️ # Atenção
+# ⚠️  Atenção
   
