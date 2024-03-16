@@ -10,3 +10,6 @@ Um script de pos instalação do arch linux feito por mim
 
 # ⚠️  Atenção
   
+Este script só funciona no Arch Linux e em seus derivados, logo nada fora disso ele ira funcionar
+
+### Execução
