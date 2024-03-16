@@ -19,4 +19,4 @@ Antes de começar dê as permissões de execução para ambos os scripts (Arch I
 ```
 chmod +x "Arch Install.sh" Flatpak.sh
 ```
-Como o Flatpak nescessita que o computador reinicie pra ser instalado corretamente só execute o Arch Install.sh se tiver Executado o Flatpak.sh e instalado o Suporte a Flatpak
+Como o Flatpak nescessita que o computador reinicie pra ser instalado corretamente só execute o Arch Install.sh se tiver Executado o Flatpak.sh e instalado o Suporte a Flatpak, pois alguns apps do Arch Install.sh prescisam do Flatpak instalado
