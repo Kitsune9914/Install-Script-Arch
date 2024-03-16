@@ -34,3 +34,5 @@ E vai aparecer algo semelhante a isso no seu terminal (No caso tenha multiplas e
 
 Escolha uma opção:
 ```
+
+E selecione a opção que mais lhe agradar
