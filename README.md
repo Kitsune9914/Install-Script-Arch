@@ -6,7 +6,7 @@ Um script de pos instalação do arch linux feito por mim para uso pessoal mas q
 - Instalação automática de pacotes
 - Configuração de certos recursos do sistema
 - Instalação automática do yay
-- Instalação de Lojas de games automaticamente podendo optar pela versão nativa ou flatpak
+- Instalação de Lojas de games automaticamente
 
 # ⚠️  Atenção
   
