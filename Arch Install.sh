@@ -595,36 +595,6 @@ case "$OPCAO" in
 esac
 
 MENU="
-1 - Tilix
-2 - Ignorar
-"
-
-echo "$MENU"
-
-Tilix="--- Instalando o Tilix ---"
-Ignorar="--- Não instalar ---"
-
-read -p "Escolha uma opção: " OPCAO
-
-case "$OPCAO" in
-        1)
-                echo "$Tilix"
-                pacman -S tilix
-        ;;
-
-        2)
-                echo "$Ignorar"
-        ;;
-
-        ;;
-
-        *)
-                echo "--- Opção $OPCAO desconhecida! ---"
-                exit 1
-        ;;        
-esac
-
-MENU="
 1 - DosboxStaging
 2 - DosboxX
 3 - Dosboxsvn
