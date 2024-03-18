@@ -608,6 +608,9 @@ echo "$MENU"
 DosboxStaging="--- Instalando o DosBox Staging ---"
 DosboxX="--- Instalando o DosBox X ---"
 Dosboxsvn="--- Instalando o DosBox svn ---"
+Flatpak="--- Instalando a versão Flatpak do Dosbox ---"
+XFlatpak="--- Instalando o Dosbox X Flatpak ---"
+StagingFlatpak="--- Instalando o Dosbox Staging Flatpak ---"
 
 read -p "Escolha uma opção: " OPCAO
 
