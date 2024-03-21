@@ -1057,7 +1057,7 @@ read -p "Escolha uma opção: " OPCAO
 case "$OPCAO" in
         1)
                 echo "$Tilix"
-                pacman -S tilix
+                sudo pacman -S tilix
         ;;
 
         2)
