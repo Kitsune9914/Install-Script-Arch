@@ -14,7 +14,7 @@ Este script só funciona no Arch Linux e em seus derivados (E que tenham o ZSH o
 
 E o script utiliza o yay pra instalar os pacotes do AUR
 
-# Caso não tenha o ZSH instalado
+### Caso não tenha o ZSH instalado
 
 Execute
 
