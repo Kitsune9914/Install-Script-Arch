@@ -1,0 +1,6 @@
+Requisitos para usar o Script:
+
+- Usar o shell ZSH
+- Ter o YAY instalado
+- Ter o Flatpak instalado
+- Estar usando uma distro base arch
