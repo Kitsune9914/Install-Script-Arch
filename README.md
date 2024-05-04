@@ -14,6 +14,15 @@ Este script só funciona no Arch Linux e em seus derivados (E que tenham o ZSH o
 
 E o script utiliza o yay pra instalar os pacotes do AUR
 
+# Caso não tenha o ZSH instalado
+
+Execute
+
+```
+sudo pacman -S zsh
+```
+Assim o ZSH será instalado
+
 ### Execução
 
 Antes de começar dê as permissões de execução para ambos os scripts:
