@@ -10,7 +10,8 @@ Um script de pos instalação do arch linux feito por mim para uso pessoal mas q
 
 # ⚠️  Atenção
   
-Este script só funciona no Arch Linux e em seus derivados, logo nada fora disso ele ira funcionar
+Este script só funciona no Arch Linux e em seus derivados (E que tenham o ZSH ou você tenha instalado ), logo nada fora disso ele ira funcionar
+
 E o script utiliza o yay pra instalar os pacotes do AUR
 
 ### Execução
