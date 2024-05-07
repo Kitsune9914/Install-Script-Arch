@@ -1578,6 +1578,50 @@ process_choice() {
   esac
 }
 
+while true; do
+  show_menu
+  printf "Escolha uma opção: "
+  read choice
+  process_choice
 
+  if [ $choice -eq 2 ]; then
+    break
+  fi
+done
+
+show_menu() {
+  echo "1. Youtube Dl"
+  echo "2. Ignorar"
+  echo "3. Sair"
+}
+
+process_choice() {
+  case $choice in
+    1)
+      echo "--- Instalando o Youtube Dl ---"
+      sudo pacman -S ytb-dl
+      ;;
+    2)
+      echo "--- Ignorando ---"
+      ;;
+    3)
+      echo "--- Saindo... ---"
+      exit 0
+      ;;
+    *)
+      echo "--- Opção inválida, tente novamente ---"
+      ;;
+}
+
+while true; do
+  show_menu
+  printf "Escolha uma opção: "
+  read choice
+  process_choice
+
+  if [ $choice -eq 2 ]; then
+    break
+  fi
+done
 
 echo "--- Parabéns o Script foi Finalizado :) ---"
