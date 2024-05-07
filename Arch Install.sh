@@ -649,7 +649,7 @@ done
 show_menu() {
 	echo "1. Vscodium"
 	echo "2. Notepad QQ"
-	echo "3. Vim"
+	echo "3. Vscode"
 	echo "4. Neovim"
 	echo "5. Ignorar"
 	echo "6. Sair"
@@ -666,8 +666,8 @@ process_choice() {
 		sudo pacman -S notepadqq
 		;;
 	3)
-		echo "--- Instalando o VIM ---"
-		sudo pacman -S vim
+		echo "--- Instalando o Vscode ---"
+		sudo pacman -S vscode
 		;;
 	4)
 		echo "--- Instalando o NeoVim"
@@ -832,6 +832,42 @@ while true; do
 	if [ $choice -eq 2 ]; then
 		break
 	fi
+done
+
+show_menu() {
+  echo "1. Xemu"
+  echo "2. Ignorar"
+  echo "3.Sair"
+}
+
+process_choice() {
+  case $option in
+    1)
+      echo "--- Instalando o Xemu ---"
+      flatpak install app.xemu.xemu
+      ;;
+    2)
+      echo "--- Ignorando ---"
+      ;;
+    3)
+      echo "--- Saindo... ---"
+      exit 0
+      ;;
+    *)
+      echo "--- Opção inválida tente novamente ---"
+      ;;
+  esac
+}
+
+while true; do
+  show_menu
+  printf "Escolha uma opção: "
+  read choice
+  process_choice
+
+  if [ $choice -eq 2 ]; then
+    break
+  fi
 done
 
 show_menu() {
@@ -1517,5 +1553,31 @@ while true; do
     break
   fi
 done
+
+show_menu() {
+  echo "1. OpenRGB"
+  echo "2. Ignorar"
+  echo "3. Sair"
+}
+
+process_choice() {
+  case $choice in
+    1)
+      echo "--- Instalando o OpenRGB ---"
+      sudo pacman -S openrgb
+      ;;
+    2)
+      echo "--- Ignorando ---"
+      ;;
+    3)
+      echo "--- Saindo... ---"
+      exit 0
+      ;;
+    *)
+      echo "--- Opção inválida, tente novamente ---"
+  esac
+}
+
+
 
 echo "--- Parabéns o Script foi Finalizado :) ---"
