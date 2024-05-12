@@ -1,8 +1,8 @@
-#!/usr/bin/zsh
+#!/usr/bin/env zsh
 
 show_menu() {
-	echo "1. Sim"
-	echo "2. Não"
+	echo "1. Oh My Zsh"
+	echo "2. Ignorar"
 	echo "3. Sair"
 }
 
@@ -30,7 +30,7 @@ while true; do
 	show_menu
 	read choice
 	process_choice
-	printf "Instalar o Oh My Zsh?"
+	printf "Escolha uma opção: "
 
 	if [ $chocie -eq 2 ]; then
 		break
@@ -1555,8 +1555,8 @@ while true; do
 done
 
 show_menu() {
-  echo "1. Sim"
-  echo "2. Não"
+  echo "1. OpenRGB"
+  echo "2. Ignorar"
   echo "3. Sair"
 }
 
@@ -1580,7 +1580,7 @@ process_choice() {
 
 while true; do
   show_menu
-  printf "Instalar o OpenRGB?"
+  printf "Escolha uma opção: "
   read choice
   process_choice
 
