@@ -1,8 +1,8 @@
 #!/usr/bin/zsh
 
 show_menu() {
-	echo "1. Oh My Zsh"
-	echo "2. Ignorar"
+	echo "1. Sim"
+	echo "2. Não"
 	echo "3. Sair"
 }
 
@@ -30,7 +30,7 @@ while true; do
 	show_menu
 	read choice
 	process_choice
-	printf "Escolha uma Opção: "
+	printf "Instalar o Oh My Zsh?"
 
 	if [ $chocie -eq 2 ]; then
 		break
@@ -1555,8 +1555,8 @@ while true; do
 done
 
 show_menu() {
-  echo "1. OpenRGB"
-  echo "2. Ignorar"
+  echo "1. Sim"
+  echo "2. Não"
   echo "3. Sair"
 }
 
@@ -1580,42 +1580,7 @@ process_choice() {
 
 while true; do
   show_menu
-  printf "Escolha uma opção: "
-  read choice
-  process_choice
-
-  if [ $choice -eq 2 ]; then
-    break
-  fi
-done
-
-show_menu() {
-  echo "1. Youtube Dl"
-  echo "2. Ignorar"
-  echo "3. Sair"
-}
-
-process_choice() {
-  case $choice in
-    1)
-      echo "--- Instalando o Youtube Dl ---"
-      sudo pacman -S ytb-dl
-      ;;
-    2)
-      echo "--- Ignorando ---"
-      ;;
-    3)
-      echo "--- Saindo... ---"
-      exit 0
-      ;;
-    *)
-      echo "--- Opção inválida, tente novamente ---"
-      ;;
-}
-
-while true; do
-  show_menu
-  printf "Escolha uma opção: "
+  printf "Instalar o OpenRGB?"
   read choice
   process_choice
 
